@@ -8,7 +8,6 @@ A full-stack polling app built with React, Node.js, Express, MongoDB, and Socket
 - Vote once per poll (duplicate vote prevention)
 - Real-time vote updates via Socket.io
 - Bar chart results using Recharts
-- Poll expiration support
 
 ## Tech Stack
 React | Node.js | Express | MongoDB | Socket.io | JWT | Recharts
@@ -16,14 +15,18 @@ React | Node.js | Express | MongoDB | Socket.io | JWT | Recharts
 ## Setup
 
 ### Backend
+```bash
 cd server
 npm install
 node server.js
+```
 
 ### Frontend
+```bash
 cd client
 npm install
 npm start
+```
 
 ## API Endpoints
 | Method | Route | Description |
